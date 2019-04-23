@@ -13,6 +13,8 @@ Descriptive statistics is about describing our collected data using: measures of
 ## Inferential Statistics
 Inferential Statistics is about using our collected data to draw conclusions to a larger population. Performing inferential statistics well requires that we take a sample that accurately represents our population of interest.
 
+![alt text](statistic.png)
+
 
 
 
