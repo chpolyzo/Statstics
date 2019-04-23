@@ -27,7 +27,9 @@ Inferential Statistics is about using our collected data to draw conclusions to 
 
 
 
-# Resources
-https://towardsdatascience.com/statistics-descriptive-and-inferential-63661eb13bb5
-Udacity Data Analyst Nanodegree Program
 
+
+# Resources
+1. https://towardsdatascience.com/statistics-descriptive-and-inferential-63661eb13bb5
+
+2. Udacity Data Analyst Nanodegree Program
