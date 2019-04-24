@@ -1,14 +1,20 @@
 ##### Table of Contents 
 
 [Statistics](#statistics) </br>
-  Descriptive Statistics </br>
-  Inferential Statistics</br>
+1. Descriptive Statistics </br>
+2. Inferential Statistics</br>
 [Probability](#probability)</br>
   Binomial Distribution</br>
   Conditional Probability</br>
   Bayes Rules</br>
-...snip...    
 
+========================================================================================
+
+```
+Statistrics and Propability are differnet but strongly related. 
+Statustics: Analyse data from past events to infer what those models or causes could be..
+Propability (Practical Statistics): Predication on events in future based on Models and causes we assume.
+```
   
 # <a name="statistics"/> Statistics: </br>
 
@@ -20,9 +26,16 @@ The field of statistics is composed of two broad categories- Descriptive and inf
 
 ## Descriptive Statistics: 
 
-Descriptive statistics is about <b> describing our collected data </b>using: measures of center, measures of spread, shape of our distribution, and outliers. We can also use plots of our data to gain a better understanding.
+Descriptive statistics is about <b> describing our collected data </b>using:
+1. Measures of center (Mean, Median, Mode) 
+2. Measures of spread (Range, Interquartile Rang IQR, Standard Deviation, Variance)
+3. Shape of our distribution
+4. Outliers. 
+
+We can also use plots of our data to gain a better understanding.
 
 ## Inferential Statistics
+
 Inferential Statistics is about using our collected data to <b> draw conclusions to a larger population </b>. Performing inferential statistics well requires that we take a sample that accurately represents our population of interest.
 
 It is necessary to identify the:
@@ -34,6 +47,16 @@ It is necessary to identify the:
 ![alt text](statistic.png)
 
 # <a name="probability"/> Probability: 
+
+- The probability of an event ```P ```  must be between 0 and 1, inclusive
+
+- The probability of the complement event  ```1- P ```  is 1 minus the probability of an event. That is the probability of all other possible events is 1 minus the probability an event itself. Therefore, the sum of all possible events is equal to 1.
+
+- The probability of the composit event (Independent events),  ``` P*P*P*P ``` , is the product of those events.
+
+
+
+
 
 
 # Resources
