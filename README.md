@@ -1,12 +1,12 @@
-##### Table of Contents 
+## Table of Content
 
-[Statistics](#statistics) </br>
-1. Descriptive Statistics </br>
-2. Inferential Statistics</br>
-[Probability](#probability)</br>
-  Binomial Distribution</br>
-  Conditional Probability</br>
-  Bayes Rules</br>
+1. [Statistics](#statistics) 
+⋅⋅* Descriptive Statistics
+⋅⋅* Inferential Statistics
+2. [Probability](#probability)
+⋅⋅*  Binomial Distribution
+⋅⋅*  Conditional Probability
+⋅⋅*  Bayes Rules
 
 ========================================================================================
 
@@ -18,7 +18,7 @@ Propability (Practical Statistics): Predication on events in future based on Mod
   
 # <a name="statistics"/> Statistics: </br>
 
-Statistics plays a main role in the field of research. It helps us in the collection, analysis and presentation of data. The two main branches of statistics: descriptive and inferential statistics.
+⋅⋅⋅Statistics plays a main role in the field of research. It helps us in the collection, analysis and presentation of data. The two main branches of statistics: descriptive and inferential statistics.
 
 Statistics is concerned with developing and studying different methods for collecting, analyzing and presenting the empirical data.
 
@@ -26,7 +26,7 @@ The field of statistics is composed of two broad categories- Descriptive and inf
 
 ## Descriptive Statistics: 
 
-Descriptive statistics is about <b> describing our collected data </b>using:
+Descriptive statistics is about **describing our collected data** using:
 1. Measures of center (Mean, Median, Mode) 
 2. Measures of spread (Range, Interquartile Rang IQR, Standard Deviation, Variance)
 3. Shape of our distribution
@@ -38,19 +38,19 @@ We can also use plots of our data to gain a better understanding.
 
 ## Inferential Statistics
 
-Inferential Statistics is about using our collected data to <b> draw conclusions to a larger population </b>. Performing inferential statistics well requires that we take a sample that accurately represents our population of interest.
+Inferential Statistics is about using our collected data to **draw conclusions to a larger population**. Performing inferential statistics well requires that we take a sample that accurately represents our population of interest.
 
 A common way to collect data is via a survey. However, surveys may be extremely biased depending on the types of questions that are asked, and the way the questions are asked. 
 
 It is necessary to identify the:
-1. <b>Population</b> - our entire group of interest.
-2. <b>Parameter</b> - numeric summary about a population
-3. <b>Sample</b> - subset of the population
-4. <b>Statistic</b>- numeric summary about a sample
+1. **Population** - our entire group of interest.
+2. **Parameter** - numeric summary about a population
+3. **Sample** - subset of the population
+4. **Statistic**- numeric summary about a sample
 
 Statistics and parameters are generally the mean or proportion for a group. Statistics being the value for the sample. Parameters being the value for the population. The population is our entire group of interest, while a sample is the selected subset of the population.
 
-A <b>sampling distribution</b> is the distribution of a statistic. The way you select the sample, that will affect then  Statistic.
+A **sampling distribution** is the distribution of a statistic. The way you select the sample, that will affect then  Statistic.
 
 
 ![alt text](statistic.png)
