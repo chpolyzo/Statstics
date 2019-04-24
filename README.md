@@ -34,15 +34,21 @@ Descriptive statistics is about <b> describing our collected data </b>using:
 
 We can also use plots of our data to gain a better understanding.
 
+
+
 ## Inferential Statistics
 
 Inferential Statistics is about using our collected data to <b> draw conclusions to a larger population </b>. Performing inferential statistics well requires that we take a sample that accurately represents our population of interest.
+
+A common way to collect data is via a survey. However, surveys may be extremely biased depending on the types of questions that are asked, and the way the questions are asked. 
 
 It is necessary to identify the:
 1. <b>Population</b> - our entire group of interest.
 2. <b>Parameter</b> - numeric summary about a population
 3. <b>Sample</b> - subset of the population
 4. <b>Statistic</b>- numeric summary about a sample
+
+Here comes the term <b> Sampling Distribution </b>. In other words, the distributuion of a statistic. The way you select the sample will affect then Population, Parameter, Sample and Statistic.
 
 ![alt text](statistic.png)
 
