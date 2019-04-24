@@ -1,12 +1,12 @@
 ## Table of Content
 
 1. [Statistics](#statistics) 
-⋅⋅* Descriptive Statistics
-⋅⋅* Inferential Statistics
+ - [Descriptive Statistics](descriptive)
+ - [Inferential Statistics](inferential)
 2. [Probability](#probability)
-⋅⋅*  Binomial Distribution
-⋅⋅*  Conditional Probability
-⋅⋅*  Bayes Rules
+ - [Binomial Distribution](binomial)
+ - [Conditional Probability](conditional)
+ - [Bayes Rules](bayes)
 
 ========================================================================================
 
@@ -24,7 +24,7 @@ Statistics is concerned with developing and studying different methods for colle
 
 The field of statistics is composed of two broad categories- Descriptive and inferential statistics. Both of them give us different insights about the data. One alone doesn’t not help us much to understand the complete picture of our data but using both of them together gives us a powerful tool for description and prediction.
 
-## Descriptive Statistics: 
+## <a name="descriptive"/>Descriptive Statistics: 
 
 Descriptive statistics is about **describing our collected data** using:
 1. Measures of center (Mean, Median, Mode) 
@@ -36,7 +36,7 @@ We can also use plots of our data to gain a better understanding.
 
 
 
-## Inferential Statistics
+## <a name="inferential"/> Inferential Statistics
 
 Inferential Statistics is about using our collected data to **draw conclusions to a larger population**. Performing inferential statistics well requires that we take a sample that accurately represents our population of interest.
 
