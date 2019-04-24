@@ -1,17 +1,17 @@
 ##### Table of Contents 
 
-[Statistics](#statistics)  
-  Descriptive Statistics 
-  Inferential Statistics
-[Probability](#probability)
-  Binomial Distribution
-  Conditional Probability
-  Bayes Rules
+[Statistics](#statistics) </br>
+  Descriptive Statistics </br>
+  Inferential Statistics</br>
+[Probability](#probability)</br>
+  Binomial Distribution</br>
+  Conditional Probability</br>
+  Bayes Rules</br>
 ...snip...    
 
   
-<a name="statistics"/>
-# Statistics: 
+# <a name="statistics"/> Statistics: </br>
+
 Statistics plays a main role in the field of research. It helps us in the collection, analysis and presentation of data. The two main branches of statistics: descriptive and inferential statistics.
 
 Statistics is concerned with developing and studying different methods for collecting, analyzing and presenting the empirical data.
@@ -33,8 +33,7 @@ It is necessary to identify the:
 
 ![alt text](statistic.png)
 
-<a name="probability"/>
-# Probability: 
+# <a name="probability"/> Probability: 
 
 
 # Resources
