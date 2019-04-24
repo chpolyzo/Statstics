@@ -18,9 +18,7 @@ Propability (Practical Statistics): Predication on events in future based on Mod
   
 # <a name="statistics"/> Statistics: </br>
 
-⋅⋅⋅Statistics plays a main role in the field of research. It helps us in the collection, analysis and presentation of data. The two main branches of statistics: descriptive and inferential statistics.
-
-Statistics is concerned with developing and studying different methods for collecting, analyzing and presenting the empirical data.
+⋅⋅⋅Statistics plays a main role in the field of research. It is concerned with developing and studying different methods for collecting, analyzing and presenting the empirical data.
 
 The field of statistics is composed of two broad categories- Descriptive and inferential statistics. Both of them give us different insights about the data. One alone doesn’t not help us much to understand the complete picture of our data but using both of them together gives us a powerful tool for description and prediction.
 
