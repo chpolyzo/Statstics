@@ -48,7 +48,10 @@ It is necessary to identify the:
 3. <b>Sample</b> - subset of the population
 4. <b>Statistic</b>- numeric summary about a sample
 
-Here comes the term <b> Sampling Distribution </b>. In other words, the distributuion of a statistic. The way you select the sample will affect then Population, Parameter, Sample and Statistic.
+Statistics and parameters are generally the mean or proportion for a group. Statistics being the value for the sample. Parameters being the value for the population. The population is our entire group of interest, while a sample is the selected subset of the population.
+
+A <b>sampling distribution</b> is the distribution of a statistic. The way you select the sample, that will affect then  Statistic.
+
 
 ![alt text](statistic.png)
 
