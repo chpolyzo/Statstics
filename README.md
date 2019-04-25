@@ -8,7 +8,7 @@
  - [Conditional Probability](conditional)
  - [Bayes Rules](bayes)
 
-========================================================================================
+==========================================
 
 ```
 Statistrics and Propability are differnet but strongly related. 
@@ -18,17 +18,21 @@ Propability (Practical Statistics): Predication on events in future based on Mod
   
 # <a name="statistics"/> Statistics: </br>
 
-⋅⋅⋅Statistics plays a main role in the field of research. It is concerned with developing and studying different methods for collecting, analyzing and presenting the empirical data.
+Statistics plays a main role in the field of research. It is concerned with developing and studying different methods for collecting, analyzing and presenting the empirical data.
 
 The field of statistics is composed of two broad categories- Descriptive and inferential statistics. Both of them give us different insights about the data. One alone doesn’t not help us much to understand the complete picture of our data but using both of them together gives us a powerful tool for description and prediction.
 
 ## <a name="descriptive"/>Descriptive Statistics: 
 
 Descriptive statistics is about **describing our collected data** using:
-1. Measures of center (Mean, Median, Mode) 
-2. Measures of spread (Range, Interquartile Rang IQR, Standard Deviation, Variance),[ 5 Numbers Summary ](doc/5_Number_Summary.xlsx)
-3. Shape of our distribution
-4. Outliers. 
+1. **Measures of center** (Mean, Median, Mode) 
+2. **Measures of spread** (Range, Interquartile Range IQR, Standard Deviation, Variance),[ 5 Numbers Summary ](docs/5_Number_Summary.xlsx)
+ - *Range*: difference between Max and Min
+ - *Interquartile Range*: difference between Q3 & Q1. Q1: first Quartile 25%, Q3: third Quartile 75% 
+ - *Variance*: Avarage squared difference of each observation from the mean.
+ - *Standard Deviation*: is the square root of the variance.
+3. **Shape of our distribution**
+4. **Outliers**. 
 
 We can also use plots of our data to gain a better understanding.
 
