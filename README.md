@@ -52,7 +52,7 @@ It is necessary to identify the:
 
 Statistics and parameters are generally the mean or proportion for a group. Statistics being the value for the sample. Parameters being the value for the population. The population is our entire group of interest, while a sample is the selected subset of the population.
 
-A **sampling distribution** is the distribution of a statistic. The way you select the sample, that will affect then  Statistic.[Practical sample distribution with Python](practice/Sampling_Distributions.ipynb)
+A **sampling distribution** is the distribution of a statistic. The way you select the sample, that will affect then  Statistic.  [Practical sample distribution with Python](practice/Sampling Distributions.ipynb)
 
 
 
