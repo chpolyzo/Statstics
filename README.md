@@ -45,10 +45,10 @@ Inferential Statistics is about using our collected data to **draw conclusions t
 A common way to collect data is via a survey. However, surveys may be extremely biased depending on the types of questions that are asked, and the way the questions are asked. 
 
 It is necessary to identify the:
-1. **Population** - our entire group of interest.
-2. **Parameter** - numeric summary about a population
-3. **Sample** - subset of the population
-4. **Statistic**- numeric summary about a sample
+1. **Population** - our entire group of interest. (200,000 persons)
+2. **Parameter** - numeric summary about a population (Proportion of all 200,000 persons who are vegetarian)
+3. **Sample** - subset of the population (1000 person)
+4. **Statistic**- numeric summary about a sample (40%)
 
 Statistics and parameters are generally the mean or proportion for a group. Statistics being the value for the sample. Parameters being the value for the population. The population is our entire group of interest, while a sample is the selected subset of the population.
 
