@@ -26,7 +26,7 @@ The field of statistics is composed of two broad categories- Descriptive and inf
 
 Descriptive statistics is about **describing our collected data** using:
 1. Measures of center (Mean, Median, Mode) 
-2. Measures of spread (Range, Interquartile Rang IQR, Standard Deviation, Variance)
+2. Measures of spread (Range, Interquartile Rang IQR, Standard Deviation, Variance),[ 5 Numbers Summary ](doc/5_Number_Summary.xlsx)
 3. Shape of our distribution
 4. Outliers. 
 
@@ -51,7 +51,7 @@ Statistics and parameters are generally the mean or proportion for a group. Stat
 A **sampling distribution** is the distribution of a statistic. The way you select the sample, that will affect then  Statistic.
 
 
-![alt text](statistic.png)
+![statistics](img/statistic.png) 
 
 # <a name="probability"/> Probability: 
 
