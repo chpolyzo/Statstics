@@ -71,6 +71,4 @@ A **sampling distribution** is the distribution of a statistic. The way you sele
 
 
 # Resources
-1. https://towardsdatascience.com/statistics-descriptive-and-inferential-63661eb13bb5
-
-2. Udacity Data Analyst Nanodegree Program
+Udacity Data Analyst Nanodegree Program
