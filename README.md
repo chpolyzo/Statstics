@@ -63,8 +63,9 @@ A **sampling distribution** is the distribution of a statistic. The way you sele
 ![statistics](img/statistic.png) 
 
 # <a name="probability"/> Probability: 
+Probabiltiy is the chance an **event** to occur. Like flipping a coin. We have 2 probabilities involved; either getting a Head or a Tail. That means we have 2 possible events and we need to assign possiblility for each event.
 
-- The probability of an event ```P ```  must be between 0 and 1, inclusive
+- The probability of an event ```P ```  must be between 0 and 1, inclusive. ```1```  means absolute certainity of the event occuring while ```0```  means absolute certainity of the event not occuring
 
 - The probability of the complement event  ```1- P ```  is 1 minus the probability of an event. That is the probability of all other possible events is 1 minus the probability an event itself. Therefore, the sum of all possible events is equal to 1.
 
