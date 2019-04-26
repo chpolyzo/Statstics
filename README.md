@@ -76,8 +76,7 @@ A binomial distribution can be thought of as simply the probability of a **SUCCE
 The first variable in the binomial formula, n, stands for the number of times the experiment runs. The second variable, p, represents the probability of one specific outcome. For example, let’s suppose you wanted to know the probability of getting a 1 on a die roll. if you were to roll a die 20 times, the probability of rolling a one on any throw is 1/6. Roll twenty times and you have a binomial distribution of (n=20, p=1/6). SUCCESS would be “roll a one” and FAILURE would be “roll anything else.” If the outcome in question was the probability of the die landing on an even number, the binomial distribution would then become (n=20, p=1/2). That’s because your probability of throwing an even number is one half.
 
 **The Binomial Distribution Formula** 
-[Formula](img/binomial_formula.png)
-
+![Formula](img/binomial_formula.png)
 where n is the number of events, x is the number of "successes", and p is the probability of "success".
 
 We can now use this distribution to determine the probability of things like:
