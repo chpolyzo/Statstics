@@ -7,6 +7,11 @@
  - [Binomial Distribution](binomial)
  - [Conditional Probability](conditional)
  - [Bayes Rules](bayes)
+ 3. Distribution
+ - Binomial Distribution
+ - Normal Distribution
+
+
 
 ==========================================
 
@@ -36,8 +41,6 @@ Descriptive statistics is about **describing our collected data** using:
 
 We can also use plots of our data to gain a better understanding.
 
-
-
 ## <a name="inferential"/> Inferential Statistics
 
 Inferential Statistics is about using our collected data to **draw conclusions to a larger population**. Performing inferential statistics well requires that we take a sample that accurately represents our population of interest.
@@ -52,16 +55,6 @@ It is necessary to identify the:
 
 Statistics and parameters are generally the mean or proportion for a group. Statistics being the value for the sample. Parameters being the value for the population. The population is our entire group of interest, while a sample is the selected subset of the population.
 
-A **sampling distribution** is the distribution of a statistic. The way you select the sample, that will affect then  Statistic.  [Practical sample distribution with Python](practice/Sampling_Distributions.ipynb)
-
-
-
-
-
-
-
-![statistics](img/statistic.png) 
-
 # <a name="probability"/> Probability: 
 Probabiltiy is the chance an **event** to occur. Like flipping a coin. We have 2 probabilities involved; either getting a Head or a Tail. That means we have 2 possible events and we need to assign possiblility for each event.
 
@@ -70,6 +63,41 @@ Probabiltiy is the chance an **event** to occur. Like flipping a coin. We have 2
 - The probability of the complement event  ```1- P ```  is 1 minus the probability of an event. That is the probability of all other possible events is 1 minus the probability an event itself. Therefore, the sum of all possible events is equal to 1.
 
 - The probability of the composit event (Independent events),  ``` P*P*P*P ``` , is the product of those events.
+
+# Distribution
+A distribution shows the possible values a random variable can take and how frequently they occur. 
+
+Important Notation for Distributions: 
+
+
+## Binomial Distribution:
+A binomial distribution can be thought of as simply the probability of a **SUCCESS** or **FAILURE** outcome in an experiment or survey that is repeated multiple times. The binomial is a type of distribution that has two possible outcomes (the prefix “bi” means two, or twice). For example, a coin toss has only two possible outcomes: heads or tails and taking a test could have two possible outcomes: pass or fail.
+
+The first variable in the binomial formula, n, stands for the number of times the experiment runs. The second variable, p, represents the probability of one specific outcome. For example, let’s suppose you wanted to know the probability of getting a 1 on a die roll. if you were to roll a die 20 times, the probability of rolling a one on any throw is 1/6. Roll twenty times and you have a binomial distribution of (n=20, p=1/6). SUCCESS would be “roll a one” and FAILURE would be “roll anything else.” If the outcome in question was the probability of the die landing on an even number, the binomial distribution would then become (n=20, p=1/2). That’s because your probability of throwing an even number is one half.
+
+**The Binomial Distribution Formula** 
+[Formula](img/binomial_formula.png)
+
+where n is the number of events, x is the number of "successes", and p is the probability of "success".
+
+We can now use this distribution to determine the probability of things like:
+
+- The probability of 3 heads occurring in 10 flips.
+- The probability of observing 8 or more heads occurring in 10 flips.
+- The probability of not observing any heads in 20 flips.
+
+
+## Normal Distribution
+
+
+
+A **sampling distribution** is the distribution of a statistic. The way you select the sample, that will affect then  Statistic.  [Practical sample distribution with Python](practice/Sampling_Distributions.ipynb)
+
+
+
+
+![statistics](img/statistic.png) 
+
 
 # Notation for Parameters vs. Statistics
 The most common parameters and corresponding statistics: 
@@ -80,3 +108,4 @@ The most common parameters and corresponding statistics:
 
 # Resources
 Udacity Data Analyst Nanodegree Program
+https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/binomial-theorem/binomial-distribution-formula/
