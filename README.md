@@ -55,20 +55,9 @@ It is necessary to identify the:
 
 Statistics and parameters are generally the mean or proportion for a group. Statistics being the value for the sample. Parameters being the value for the population. The population is our entire group of interest, while a sample is the selected subset of the population.
 
-# <a name="probability"/> Probability: 
-Probabiltiy is the chance an **event** to occur. Like flipping a coin. We have 2 probabilities involved; either getting a Head or a Tail. That means we have 2 possible events and we need to assign possiblility for each event.
-
-- The probability of an event ```P ```  must be between 0 and 1, inclusive. ```1```  means absolute certainity of the event occuring while ```0```  means absolute certainity of the event not occuring
-
-- The probability of the complement event  ```1- P ```  is 1 minus the probability of an event. That is the probability of all other possible events is 1 minus the probability an event itself. Therefore, the sum of all possible events is equal to 1.
-
-- The probability of the composit event (Independent events),  ``` P*P*P*P ``` , is the product of those events.
 
 # Distribution
 A distribution shows the possible values a random variable can take and how frequently they occur. 
-
-Important Notation for Distributions: 
-
 
 ## Binomial Distribution:
 A binomial distribution can be thought of as simply the probability of a **SUCCESS** or **FAILURE** outcome in an experiment or survey that is repeated multiple times. The binomial is a type of distribution that has two possible outcomes (the prefix “bi” means two, or twice). For example, a coin toss has only two possible outcomes: heads or tails and taking a test could have two possible outcomes: pass or fail.
@@ -108,6 +97,14 @@ The most common parameters and corresponding statistics:
 
 ![Notation](img/notation.png)
 
+# <a name="probability"/> Probability: 
+Probabiltiy is the chance an **event** to occur. Like flipping a coin. We have 2 probabilities involved; either getting a Head or a Tail. That means we have 2 possible events and we need to assign possiblility for each event.
+
+- The probability of an event ```P ```  must be between 0 and 1, inclusive. ```1```  means absolute certainity of the event occuring while ```0```  means absolute certainity of the event not occuring
+
+- The probability of the complement event  ```1- P ```  is 1 minus the probability of an event. That is the probability of all other possible events is 1 minus the probability an event itself. Therefore, the sum of all possible events is equal to 1.
+
+- The probability of the composit event (Independent events),  ``` P*P*P*P ``` , is the product of those events.
 
 
 # Resources
