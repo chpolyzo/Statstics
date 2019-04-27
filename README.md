@@ -125,7 +125,7 @@ Three of the most common ways are with the following estimation techniques:
 
 **2- Central Limit Theorem**
 
-The Central Limit Theorem states that with a large enough sample size the sampling distribution of the mean will be normally distributed. [Practice Central Limit Theorem 1](practice/Central_Limit_Theorem.ipynb),  [Practice Central Limit Theorem 2](practice/Central_Limit_Theorem1.ipynb)
+The Central Limit Theorem states that with a large enough sample size the sampling distribution of the mean will be normally distributed. [Practice Central Limit Theorem 1](practice/Central_Limit_Theorem.ipynb),  [Practice Central Limit Theorem (Means)](practice/Central_Limit_Theorem2.ipynb), [Practice Central Limit Theorem (Variance)](practice/Central_Limit_Theorem3.ipynb)
 
 The Central Limit Theorem actually applies for these well known statistics:
 
@@ -133,6 +133,13 @@ The Central Limit Theorem actually applies for these well known statistics:
 2. Sample proportions
 3. Difference in sample means 
 3. Difference in sample proportions 
+
+**Notes** 
+- Sample variances are actually known to follow a different type of mathematical distribution known as a chi-squared distribution. Which is a more right-skewed distribution than a normal.
+- In all scenarios we relied on mathmatical theorems, like the central limit theorem leads to gaps in whether we  have acheiced a large sample size or which statistics the theorem applied to. So instead on relying on theorems we could simulate the sampling distribution. This can be acheived by a techniqe called **Bootstrapping**.
+
+## Bootstrapping 
+Bootstrapping in statistics means sampling with replacement. Using random.choice in python actually samples in this way. Where the probability of any number in our set stays the same regardless of how many times it has been chosen
 
 # <a name="probability"/> Probability: 
 Probabiltiy is the chance an **event** to occur. Like flipping a coin. We have 2 probabilities involved; either getting a Head or a Tail. That means we have 2 possible events and we need to assign possiblility for each event.
