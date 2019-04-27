@@ -1,15 +1,18 @@
 ## Table of Content
 
 1. [Statistics](#statistics) 
- - [Descriptive Statistics](descriptive)
- - [Inferential Statistics](inferential)
+   - [Descriptive Statistics](descriptive)
+   - [Inferential Statistics](inferential)
 2. [Probability](#probability)
- - [Binomial Distribution](binomial)
- - [Conditional Probability](conditional)
- - [Bayes Rules](bayes)
- 3. Distribution
- - Binomial Distribution
- - Normal Distribution
+   - [Binomial Distribution](binomial)
+   - [Conditional Probability](conditional)
+   - [Bayes Rules](bayes)
+3. [Notation](#notation)
+4. Distribution
+  - Binomial Distribution
+  - Normal Distribution
+  - Bootstrapping
+  - Confidence Intervals
 
 
 
@@ -58,7 +61,7 @@ Statistics and parameters are generally the mean or proportion for a group. Stat
 
 ![statistics](img/statistic.png) 
 
-# Notation 
+# <a name="notation"/> Notation
 Notation is a common math language used to communocate. Regardless which language you speak, you can work together using notation as a common language to solve problems.
 
 ## Notation for Parameters vs. Statistics
@@ -96,7 +99,7 @@ We can now use this distribution to determine the probability of things like:
 ## Normal Distribution
 
 ## Sampling Distributions
-A sampling distribution is the distribution of a statistic. The way you select the sample, that will affect then  Statistic.  [Practical sample distribution with Python](practice/Sampling_Distributions.ipynb)
+A sampling distribution is the distribution of a statistic. The way you select the sample, that will affect then  Statistic.  [Practice sample distribution with Python](practice/Sampling_Distributions.ipynb)
 
 **Note from Practical Sample distribution:** We found that for proportions (and also means, as proportions are just the mean of 1 and 0 values), the following characteristics hold.
 
@@ -135,9 +138,14 @@ The Central Limit Theorem actually applies for these well known statistics:
 - In all scenarios we relied on mathmatical theorems, like the central limit theorem leads to gaps in whether we  have acheiced a large sample size or which statistics the theorem applied to. So instead on relying on theorems we could simulate the sampling distribution. This can be acheived by a techniqe called **Bootstrapping**.
 
 ## Bootstrapping 
+[Practice Bootstrapping with Python](practice/Bootstrapping.ipynb)
+
 - Bootstrapping in statistics means sampling with replacement. Using random.choice in python actually samples in this way. Where the probability of any number in our set stays the same regardless of how many times it has been chosen.
 - We can use bootstrapping to simulate the creation of sampling distribution.
 - By bootstrapping and then calculating repeated values of our statistics, we can gain an understanding of the sampling distribution of our statistics.
+- We can use bootstrapping and sampling distributions to build confidence intervals for our parameters of interest.
+
+##  Confidence Intervals
 
 # <a name="probability"/> Probability: 
 Probabiltiy is the chance an **event** to occur. Like flipping a coin. We have 2 probabilities involved; either getting a Head or a Tail. That means we have 2 possible events and we need to assign possiblility for each event.
