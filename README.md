@@ -110,6 +110,30 @@ The common ways to notate parameters are differnet from the ways we notate stati
 
 ![Notation](img/notation.png)
 
+Parameter is a numiric summary of a population which is a fixed value. However, statistics will change based on a sample you select from the population. So what are the common traits of sampling distributions??
+
+Two important mathematical theorems for working with sampling distributions include:
+
+**1- Law of Large Numbers**
+The Law of Large Numbers says that as our sample size increases, the sample mean gets closer to the population mean, but how did we determine that the sample mean would estimate a population mean in the first place? How would we identify another relationship between parameter and statistic like this in the future?
+
+Three of the most common ways are with the following estimation techniques:
+
+* [Maximum Likelihood Estimation](https://en.wikipedia.org/wiki/Maximum_likelihood_estimation)
+* [Method of Moments Estimation](https://en.wikipedia.org/wiki/Method_of_moments_(statistics))
+* [Bayesian Estimation](https://en.wikipedia.org/wiki/Bayes_estimator)
+
+**2- Central Limit Theorem**
+
+The Central Limit Theorem states that with a large enough sample size the sampling distribution of the mean will be normally distributed. [Practice Central Limit Theorem](practice/Central_Limit_Theorem.ipynb)
+
+The Central Limit Theorem actually applies for these well known statistics:
+
+1. Sample means 
+2. Sample proportions
+3. Difference in sample means 
+3. Difference in sample proportions 
+
 # <a name="probability"/> Probability: 
 Probabiltiy is the chance an **event** to occur. Like flipping a coin. We have 2 probabilities involved; either getting a Head or a Tail. That means we have 2 possible events and we need to assign possiblility for each event.
 
@@ -121,5 +145,7 @@ Probabiltiy is the chance an **event** to occur. Like flipping a coin. We have 2
 
 
 # Resources
-Udacity Data Analyst Nanodegree Program
-https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/binomial-theorem/binomial-distribution-formula/
+1. Udacity Data Analyst Nanodegree Program
+2. https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/binomial-theorem/binomial-distribution-formula/
+3. https://en.wikipedia.org/
+
