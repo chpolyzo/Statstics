@@ -56,6 +56,10 @@ It is necessary to identify the:
 Statistics and parameters are generally the mean or proportion for a group. Statistics being the value for the sample. Parameters being the value for the population. The population is our entire group of interest, while a sample is the selected subset of the population.
 
 
+![statistics](img/statistic.png) 
+
+
+
 # Distribution
 A distribution shows the possible values a random variable can take and how frequently they occur. 
 
@@ -92,10 +96,8 @@ The sampling distribution is centered on the original parameter value.
 
 The sampling distribution decreases its variance depending on the sample size used. Specifically, the variance of the sampling distribution is equal to the variance of the original data divided by the sample size used. This is always true for the variance of a sample mean!
 
+In notation, we say if we have a random variable, **X**, with variance of σ<sup>2</sup>, then the distribution of **X** (the sampling distribution of the sample mean) has a variance of ![variance](variance.png)
 
-
-
-![statistics](img/statistic.png) 
 
 
 # Notation for Parameters vs. Statistics
