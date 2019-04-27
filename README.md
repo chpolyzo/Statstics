@@ -86,6 +86,12 @@ We can now use this distribution to determine the probability of things like:
 
 A **sampling distribution** is the distribution of a statistic. The way you select the sample, that will affect then  Statistic.  [Practical sample distribution with Python](practice/Sampling_Distributions.ipynb)
 
+**cc:** We found that for proportions (and also means, as proportions are just the mean of 1 and 0 values), the following characteristics hold.
+
+The sampling distribution is centered on the original parameter value.
+
+The sampling distribution decreases its variance depending on the sample size used. Specifically, the variance of the sampling distribution is equal to the variance of the original data divided by the sample size used. This is always true for the variance of a sample mean!
+
 
 
 
