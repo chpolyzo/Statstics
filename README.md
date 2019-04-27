@@ -100,8 +100,13 @@ In notation, we say if we have a random variable, **X**, with variance of σ<sup
 
 
 
-# Notation for Parameters vs. Statistics
-The most common parameters and corresponding statistics: 
+# Notation 
+Notation is a common math language used to communocate. Regardless which language you speak, you can work together using notation as a common language to solve problems.
+
+## Notation for Parameters vs. Statistics
+The common ways to notate parameters are differnet from the ways we notate statistics. In general, parameters are notated with Greek symbols, where statistics are either notated by lower case letters or the same Greek symbol with a hat on it.
+
+**The most common parameters and corresponding statistics:**
 
 ![Notation](img/notation.png)
 
