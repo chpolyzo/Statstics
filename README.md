@@ -139,7 +139,9 @@ The Central Limit Theorem actually applies for these well known statistics:
 - In all scenarios we relied on mathmatical theorems, like the central limit theorem leads to gaps in whether we  have acheiced a large sample size or which statistics the theorem applied to. So instead on relying on theorems we could simulate the sampling distribution. This can be acheived by a techniqe called **Bootstrapping**.
 
 ## Bootstrapping 
-Bootstrapping in statistics means sampling with replacement. Using random.choice in python actually samples in this way. Where the probability of any number in our set stays the same regardless of how many times it has been chosen
+- Bootstrapping in statistics means sampling with replacement. Using random.choice in python actually samples in this way. Where the probability of any number in our set stays the same regardless of how many times it has been chosen.
+- We can use bootstrapping to simulate the creation of sampling distribution.
+- By bootstrapping and then calculating repeated values of our statistics, we can gain an understanding of the sampling distribution of our statistics.
 
 # <a name="probability"/> Probability: 
 Probabiltiy is the chance an **event** to occur. Like flipping a coin. We have 2 probabilities involved; either getting a Head or a Tail. That means we have 2 possible events and we need to assign possiblility for each event.
