@@ -95,7 +95,7 @@ We can now use this distribution to determine the probability of things like:
 
 ## Normal Distribution
 
-## sampling distribution
+## Sampling Distributions
 A sampling distribution is the distribution of a statistic. The way you select the sample, that will affect then  Statistic.  [Practical sample distribution with Python](practice/Sampling_Distributions.ipynb)
 
 **Note from Practical Sample distribution:** We found that for proportions (and also means, as proportions are just the mean of 1 and 0 values), the following characteristics hold.
