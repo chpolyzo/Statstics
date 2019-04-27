@@ -125,7 +125,7 @@ Three of the most common ways are with the following estimation techniques:
 
 **2- Central Limit Theorem**
 
-The Central Limit Theorem states that with a large enough sample size the sampling distribution of the mean will be normally distributed. [Practice Central Limit Theorem](practice/Central_Limit_Theorem.ipynb)
+The Central Limit Theorem states that with a large enough sample size the sampling distribution of the mean will be normally distributed. [Practice Central Limit Theorem 1](practice/Central_Limit_Theorem.ipynb),  [Practice Central Limit Theorem 2](practice/Central_Limit_Theorem1.ipynb)
 
 The Central Limit Theorem actually applies for these well known statistics:
 
