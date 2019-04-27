@@ -58,6 +58,15 @@ Statistics and parameters are generally the mean or proportion for a group. Stat
 
 ![statistics](img/statistic.png) 
 
+# Notation 
+Notation is a common math language used to communocate. Regardless which language you speak, you can work together using notation as a common language to solve problems.
+
+## Notation for Parameters vs. Statistics
+The common ways to notate parameters are differnet from the ways we notate statistics. In general, parameters are notated with Greek symbols, where statistics are either notated by lower case letters or the same Greek symbol with a hat on it.
+
+**The most common parameters and corresponding statistics:**
+
+![Notation](img/notation.png)
 
 
 # Distribution
@@ -86,9 +95,8 @@ We can now use this distribution to determine the probability of things like:
 
 ## Normal Distribution
 
-
-
-A **sampling distribution** is the distribution of a statistic. The way you select the sample, that will affect then  Statistic.  [Practical sample distribution with Python](practice/Sampling_Distributions.ipynb)
+## sampling distribution
+A sampling distribution is the distribution of a statistic. The way you select the sample, that will affect then  Statistic.  [Practical sample distribution with Python](practice/Sampling_Distributions.ipynb)
 
 **Note from Practical Sample distribution:** We found that for proportions (and also means, as proportions are just the mean of 1 and 0 values), the following characteristics hold.
 
@@ -98,19 +106,7 @@ The sampling distribution decreases its variance depending on the sample size us
 
 In notation, we say if we have a random variable, **X**, with variance of σ<sup>2</sup>, then the distribution of **X** (the sampling distribution of the sample mean) has a variance of ![var](img/variance.png)
 
-
-
-# Notation 
-Notation is a common math language used to communocate. Regardless which language you speak, you can work together using notation as a common language to solve problems.
-
-## Notation for Parameters vs. Statistics
-The common ways to notate parameters are differnet from the ways we notate statistics. In general, parameters are notated with Greek symbols, where statistics are either notated by lower case letters or the same Greek symbol with a hat on it.
-
-**The most common parameters and corresponding statistics:**
-
-![Notation](img/notation.png)
-
-Parameter is a numiric summary of a population which is a fixed value. However, statistics will change based on a sample you select from the population. So what are the common traits of sampling distributions??
+Parameter is a numeric summary of a population which is a fixed value. However, statistics will change based on a sample you select from the population. So what are the common traits of sampling distributions??
 
 Two important mathematical theorems for working with sampling distributions include:
 
