@@ -168,8 +168,39 @@ However, it is also important to take into consideration practical significance 
 
 ## Hypothesis Testing / IMPORTATNT/ 
 Hypothesis Testing and Confidence Interval allow us to use only **sample data** to draw conclusions about an **entire population**.
-Hypothesis Testinng is all about helping business make better and more inforem database decisions 
+Hypothesis Testinng is all about helping business make better and more inforem database decisions
+
 **How we can set up and evaluate the result of hypothesis testing???**
+
+When we performing a Hypothesis Testing, the first thing we need to do is to translate our question into two comparing hypotheses. 
+1. Null **H<sub>0</sub>**
+2. Alternative **H<sub>1</sub>**
+
+ The general rules for setting up null and alternative hypotheses:
+ - The **H<sub>0</sub>** is true before you collect any data.
+ - The **H<sub>0</sub>** usually states there is no effect or that two groups are equal.
+ - The **H<sub>0</sub>** and **H<sub>1</sub>** are competing, non-overlapping hypotheses.
+ - **H<sub>1</sub>** is what we would like to prove to be true.
+ - **H<sub>0</sub>**  contains an equal sign of some kind - either =, ≤, or ≥.
+ - **H<sub>1</sub>** contains the opposition of the null - either ≠, >, or <. 
+
+```
+An exapmle about hypotheses
+We can relate this to the idea that "innocent" is before we collect any data. Then the alternative must be a competing, non-overlapping hypothesis. Hence, the alternative hypothesis is that an individual is guilty.
+```
+
+Another exapmle about hypotheses<br/>
+Because we wanted to test if a new page was better than an existing page, we set that up in the alternative. Two indicators are that the null should hold the equality, and the statement we would like to be true should be in the alternative. Therefore, it would look like this:<br/><br/>
+
+**H<sub>0</sub>:** μ<sub>new</sub> ≤ μ<sub>old</sub> **or** μ<sub>1</sub> ≤ μ<sub>2</sub><br/>
+**H<sub>1</sub>:** μ<sub>new</sub> > μ<sub>old</sub> **or**  μ<sub>1</sub> > μ<sub>2</sub><br/>
+
+ μ<sub>1</sub> represents the population mean return from the new page. Similarly,  μ<sub>2</sub> represents the population mean return from the old page.
+
+Depending on your question of interest, you would change your null and alternative hypotheses to match.
+
+
+
 # <a name="probability"/> Probability: 
 Probabiltiy is the chance an **event** to occur. Like flipping a coin. We have 2 probabilities involved; either getting a Head or a Tail. That means we have 2 possible events and we need to assign possiblility for each event.
 
