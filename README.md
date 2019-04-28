@@ -146,6 +146,8 @@ The Central Limit Theorem actually applies for these well known statistics:
 - We can use bootstrapping and sampling distributions to build confidence intervals for our parameters of interest.
 
 ##  Confidence Intervals
+[Practice Confidence Intervals 1 with Python](practice/Confidence_Intervals1.ipynb)
+[Practice Confidence Intervals 2 with Python](practice/Confidence_Intervals2.ipynb)
 
 # <a name="probability"/> Probability: 
 Probabiltiy is the chance an **event** to occur. Like flipping a coin. We have 2 probabilities involved; either getting a Head or a Tail. That means we have 2 possible events and we need to assign possiblility for each event.
