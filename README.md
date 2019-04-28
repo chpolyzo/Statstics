@@ -154,6 +154,19 @@ Confidence intervals give us a range of plausible values for some unknown value 
 - [Practice Confidence Intervals 1 with Python](practice/Confidence_Intervals1.ipynb)
 - [Practice Confidence Intervals 2 with Python](practice/Confidence_Intervals2.ipynb)
 
+In the above 2 examples, I compared the average heights of coffee drinkers to non-coffee drinkers, there are a number of other applications that use a comparison for the means of two groups.
+
+**A/B testing** is one of the most important to businesses around the world. In this technique, you are changing something about your web layout to understand how it impacts users. You ideally want to provide a page that leads to more clicks, higher revenue, and/or higher customer satisfaction.
+
+Confidence intervals take an aggregate approach towards the conclusions made based on data, as these tests are aimed at understanding population parameters (which are aggregate population values).
+
+Alternatively, machine learning techniques take an individual approach towards making conclusions, as they attempt to predict an outcome for each specific data point.The most two fundamental machine learning approaches used in practice: **linear and logistic regression**.
+
+**Practical and statistical significance.**
+Using confidence intervals and hypothesis testing, you are able to provide statistical significance in making decisions.
+However, it is also important to take into consideration practical significance in making decisions. Practical significance takes into consideration other factors of your situation that might not be considered directly in the results of your hypothesis test or confidence interval. Constraints like space, time, or money are important in business decisions. However, they might not be accounted for directly in a statistical test.
+
+
 # <a name="probability"/> Probability: 
 Probabiltiy is the chance an **event** to occur. Like flipping a coin. We have 2 probabilities involved; either getting a Head or a Tail. That means we have 2 possible events and we need to assign possiblility for each event.
 
