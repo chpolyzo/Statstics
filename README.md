@@ -149,6 +149,8 @@ The Central Limit Theorem actually applies for these well known statistics:
 - We can use bootstrapping and sampling distributions to build confidence intervals for our parameters of interest.
 
 ##  Confidence Intervals
+Confidence intervals give us a range of plausible values for some unknown value based on results from a sample. Most commonly, the 95% confidence level is used. However, other confidence levels can be used, for example, 90% and 99%.
+
 - [Practice Confidence Intervals 1 with Python](practice/Confidence_Intervals1.ipynb)
 - [Practice Confidence Intervals 2 with Python](practice/Confidence_Intervals2.ipynb)
 
@@ -166,4 +168,6 @@ Probabiltiy is the chance an **event** to occur. Like flipping a coin. We have 2
 1. Udacity Data Analyst Nanodegree Program
 2. https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/binomial-theorem/binomial-distribution-formula/
 3. https://en.wikipedia.org/
+4. www.khanacademy.org/
+
 
