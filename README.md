@@ -186,7 +186,9 @@ When we performing a Hypothesis Testing, the first thing we need to do is to tra
 
 ```
 An exapmle about hypotheses
-We can relate this to the idea that "innocent" is before we collect any data. Then the alternative must be a competing, non-overlapping hypothesis. Hence, the alternative hypothesis is that an individual is guilty.
+We can relate this to the idea that "innocent" is before we collect any data. 
+Then the alternative must be a competing, non-overlapping hypothesis.
+Hence, the alternative hypothesis is that an individual is guilty.
 ```
 
 Another exapmle about hypotheses<br/>
