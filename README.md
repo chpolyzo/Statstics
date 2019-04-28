@@ -212,6 +212,21 @@ There are two types of errors that are possible in hypothesis testing:
   * They are denoted by the symbol **β** beta.
   * The definition of a type II error is: **Deciding the null (H<sub>0</sub>) is true, when actually (H<sub>1</sub>) is true**.
   * Type II errors are often called **false negatives**.
+  
+You are always performing hypothesis tests on **population parameters**, **never on statistics**. Statistics are values that you already have from the data, so it does not make sense to perform hypothesis tests on these values.
+
+**Common hypothesis tests include:**
+1. Testing a population mean [One sample t-test](http://sites.utexas.edu/sos/guided/inferential/numeric/claim/one-sample-t/)
+2. Testing the difference in means [Two sample t-test](https://www.isixsigma.com/tools-templates/hypothesis-testing/making-sense-two-sample-t-test/)
+3. Testing the difference before and after some treatment on the same individual [Paired t-test](http://www.statstutor.ac.uk/resources/uploaded/paired-t-test.pdf)
+4. Testing a population proportion [One sample z-test](http://stattrek.com/statistics/dictionary.aspx?definition=one-sample%20z-test)
+5. Testing the difference between population proportions [Two sample z-test](https://onlinecourses.science.psu.edu/stat414/node/268)
+
+You can use one of these sites to provide a t-table or z-table to support one of the above approaches:
+1. [t-table](https://s3.amazonaws.com/udacity-hosted-downloads/t-table.jpg)
+2. [t-table or z-table](http://www.z-table.com/t-value-table.html)
+
+There are literally hundreds of different hypothesis tests! However, instead of memorizing how to perform all of these tests, you can find the statistic(s) that best estimates the parameter(s) you want to estimate, you can bootstrap to simulate the sampling distribution. Then you can use your sampling distribution to assist in choosing the appropriate hypothesis.
 
 
 # <a name="probability"/> Probability: 
