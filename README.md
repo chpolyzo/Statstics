@@ -240,7 +240,7 @@ Probabiltiy is the chance an **event** to occur. Like flipping a coin. We have 2
 
 
 # Resources
-1. [Data Analyst Nanodegree](https://eu.udacity.com)
+1. [Udacity Data Analyst Nanodegree](https://eu.udacity.com)
 2. https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/binomial-theorem/binomial-distribution-formula/
 3. https://en.wikipedia.org/
 4. www.khanacademy.org/
