@@ -205,11 +205,11 @@ Depending on your question of interest, you would change your null and alternati
 There are two types of errors that are possible in hypothesis testing:
 * **Type I errors** have the following features:
   * You should set up your null and alternative hypotheses, so that the worse of your errors is the type I error.
-  * They are denoted by the symbol **α**.
+  * They are denoted by the symbol **α** alpha.
   * The definition of a type I error is: **Deciding the alternative (H<sub>1</sub>) is true, when actually (H<sub>0</sub>) is true**.
   * Type I errors are often called **false positives**.
 * **Type II errors**:
-  * They are denoted by the symbol **β**
+  * They are denoted by the symbol **β** beta.
   * The definition of a type II error is: **Deciding the null (H<sub>0</sub>) is true, when actually (H<sub>1</sub>) is true**.
   * Type II errors are often called **false negatives**.
 
