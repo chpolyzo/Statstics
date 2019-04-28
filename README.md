@@ -166,7 +166,10 @@ Alternatively, machine learning techniques take an individual approach towards m
 Using confidence intervals and hypothesis testing, you are able to provide statistical significance in making decisions.
 However, it is also important to take into consideration practical significance in making decisions. Practical significance takes into consideration other factors of your situation that might not be considered directly in the results of your hypothesis test or confidence interval. Constraints like space, time, or money are important in business decisions. However, they might not be accounted for directly in a statistical test.
 
-
+## Hypothesis Testing / IMPORTATNT/ 
+Hypothesis Testing and Confidence Interval allow us to use only **sample data** to draw conclusions about an **entire population**.
+Hypothesis Testinng is all about helping business make better and more inforem database decisions 
+**How we can set up and evaluate the result of hypothesis testing???**
 # <a name="probability"/> Probability: 
 Probabiltiy is the chance an **event** to occur. Like flipping a coin. We have 2 probabilities involved; either getting a Head or a Tail. That means we have 2 possible events and we need to assign possiblility for each event.
 
