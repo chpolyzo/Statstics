@@ -3,17 +3,17 @@
 1. [Statistics](#statistics) 
    - [Descriptive Statistics](descriptive)
    - [Inferential Statistics](inferential)
-2. [Probability](#probability)
+2. [Notation](#notation)
+3. Types of Distributions
+   a. Binomial Distribution
+   b. Normal Distribution
+4. Bootstrapping
+5. Confidence Intervals
+6. Hypothesis Testing
+7. [Probability](#probability)
    - [Binomial Distribution](binomial)
    - [Conditional Probability](conditional)
    - [Bayes Rules](bayes)
-3. [Notation](#notation)
-4. Distribution
-  - Binomial Distribution
-  - Normal Distribution
-  - Bootstrapping
-  - Confidence Intervals
-
 
 
 ==========================================
@@ -75,7 +75,7 @@ The common ways to notate parameters are differnet from the ways we notate stati
 # Distribution
 A distribution shows the possible values a random variable can take and how frequently they occur. 
 
-## Binomial Distribution:
+## 1. Binomial Distribution:
 A binomial distribution can be thought of as simply the probability of a **SUCCESS** or **FAILURE** outcome in an experiment or survey that is repeated multiple times. The binomial is a type of distribution that has two possible outcomes (the prefix “bi” means two, or twice). For example, a coin toss has only two possible outcomes: heads or tails and taking a test could have two possible outcomes: pass or fail.
 
 The first variable in the binomial formula, n, stands for the number of times the experiment runs. The second variable, p, represents the probability of one specific outcome. For example, let’s suppose you wanted to know the probability of getting a 1 on a die roll. if you were to roll a die 20 times, the probability of rolling a one on any throw is 1/6. Roll twenty times and you have a binomial distribution of (n=20, p=1/6). SUCCESS would be “roll a one” and FAILURE would be “roll anything else.” If the outcome in question was the probability of the die landing on an even number, the binomial distribution would then become (n=20, p=1/2). That’s because your probability of throwing an even number is one half.
@@ -96,9 +96,17 @@ We can now use this distribution to determine the probability of things like:
 - The probability of not observing any heads in 20 flips.
 
 
-## Normal Distribution
+## 2. Normal Distribution
+A normal distribution, sometimes called the bell curve, is a distribution that occurs naturally in many situations. The bell curve is symmetrical. Half of the data will fall to the left of the mean; half will fall to the right.
+Many groups follow this type of pattern. 
 
-## Sampling Distributions
+Properties of a normal distribution
+- The mean, mode and median are all equal.
+- The curve is symmetric at the center (i.e. around the mean, μ).
+- Exactly half of the values are to the left of center and exactly half the values are to the right.
+- The total area under the curve is 1
+
+# Sampling Distributions
 A sampling distribution is the distribution of a statistic. The way you select the sample, that will affect then  Statistic.  [Practice sample distribution with Python](practice/Sampling_Distributions.ipynb)
 
 **Note from Practical Sample distribution:** We found that for proportions (and also means, as proportions are just the mean of 1 and 0 values), the following characteristics hold.
@@ -140,7 +148,7 @@ The Central Limit Theorem actually applies for these well known statistics:
 - Sample variances are actually known to follow a different type of mathematical distribution known as a chi-squared distribution. Which is a more right-skewed distribution than a normal.
 - In all scenarios we relied on mathmatical theorems, like the central limit theorem leads to gaps in whether we  have acheiced a large sample size or which statistics the theorem applied to. So instead on relying on theorems we could simulate the sampling distribution. This can be acheived by a techniqe called **Bootstrapping**.
 
-## Bootstrapping 
+# Bootstrapping 
 - [Practice Bootstrapping with Python](practice/Bootstrapping.ipynb)
 
 - Bootstrapping in statistics means sampling with replacement. Using random.choice in python actually samples in this way. Where the probability of any number in our set stays the same regardless of how many times it has been chosen.
@@ -148,7 +156,7 @@ The Central Limit Theorem actually applies for these well known statistics:
 - By bootstrapping and then calculating repeated values of our statistics, we can gain an understanding of the sampling distribution of our statistics.
 - We can use bootstrapping and sampling distributions to build confidence intervals for our parameters of interest.
 
-##  Confidence Intervals
+# Confidence Intervals
 Confidence intervals give us a range of plausible values for some unknown value based on results from a sample. Most commonly, the 95% confidence level is used. However, other confidence levels can be used, for example, 90% and 99%.
 
 - [Practice Confidence Intervals 1 with Python](practice/Confidence_Intervals1.ipynb)
@@ -166,7 +174,7 @@ Alternatively, machine learning techniques take an individual approach towards m
 Using confidence intervals and hypothesis testing, you are able to provide statistical significance in making decisions.
 However, it is also important to take into consideration practical significance in making decisions. Practical significance takes into consideration other factors of your situation that might not be considered directly in the results of your hypothesis test or confidence interval. Constraints like space, time, or money are important in business decisions. However, they might not be accounted for directly in a statistical test.
 
-## Hypothesis Testing / IMPORTATNT/ 
+# Hypothesis Testing / IMPORTANT/ 
 Hypothesis Testing and Confidence Interval allow us to use only **sample data** to draw conclusions about an **entire population**.
 Hypothesis Testinng is all about helping business make better and more inforem database decisions
 
