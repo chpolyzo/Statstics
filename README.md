@@ -5,8 +5,8 @@
    - [Inferential Statistics](inferential)
 2. [Notation](#notation)
 3. Types of Distributions
-   a. Binomial Distribution
-   b. Normal Distribution
+   - Binomial Distribution
+   - Normal Distribution
 4. Bootstrapping
 5. Confidence Intervals
 6. Hypothesis Testing
