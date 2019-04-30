@@ -289,7 +289,8 @@ A rule of thumb for judging the strength:
 | --------------- | -------------- |--------------- |
 |  0.7 ≤ r ≤ 1.0  |  0.3 ≤ r < 0.7 |  0.0 ≤ r < 0.3 |
 
-
+**Note**
+Although the correlation coefficient and the scatter plot provide some of the info (details about the strength and direction), often an image provides much more information.
 
 # Resources
 1. [Udacity Data Analyst Nanodegree](https://eu.udacity.com) . The most information
