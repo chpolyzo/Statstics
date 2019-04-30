@@ -282,6 +282,13 @@ Scatter plots are a common visual for comparing two quantitative variables. A co
 
 Correlation coefficient provides the: **Strength** (Strong, Moderate, Week) and **Direction** (Positive, Negative) of a linear relationship. The correlation coefficient is always between -1 and 1, where is closer to 1 or -1, the stronger the relation
 
+A rule of thumb for judging the strength:
+
+
+|     Strong      |    Moderate    |    Weak        |
+| --------------- | -------------- |--------------- |
+|  0.7 ≤ r ≤ 1.0  |  0.3 ≤ r ≤ 0.7 |  0.0 ≤ r ≤ 0.3 |
+
 
 
 # Resources
