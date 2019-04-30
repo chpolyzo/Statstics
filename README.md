@@ -236,6 +236,21 @@ You can use one of these sites to provide a t-table or z-table to support one of
 
 There are literally hundreds of different hypothesis tests! However, instead of memorizing how to perform all of these tests, you can find the statistic(s) that best estimates the parameter(s) you want to estimate, you can bootstrap to simulate the sampling distribution. Then you can use your sampling distribution to assist in choosing the appropriate hypothesis.
 
+**What Is A P-value?**
+The definition of a p-value is the probability of observing your statistic (or one more extreme in favor of the alternative) if the null hypothesis is true.
+The more extreme in favor of the alternative portion of this statement determines the shading associated with your p-value.
+Therefore, you have the following 3 cases:
+1. If your parameter is greater than some value in the alternative hypothesis
+2. If your parameter is not equal to some value in the alternative hypothesis
+3. If your parameter is less than some value in the alternative hypothesis
+
+**The process:**
+
+1. Simulate the values of your statistic that are possible from the null.
+2. Calculate the value of the statistic you actually obtained in your data.
+3. Compare your statistic to the values from the null.
+4. Calculate the proportion of null values that are considered extreme based on your alternative.
+
 
 # <a name="probability"/> Probability: 
 Probabiltiy is the chance an **event** to occur. Like flipping a coin. We have 2 probabilities involved; either getting a Head or a Tail. That means we have 2 possible events and we need to assign possiblility for each event.
@@ -248,7 +263,7 @@ Probabiltiy is the chance an **event** to occur. Like flipping a coin. We have 2
 
 
 # Resources
-1. [Udacity Data Analyst Nanodegree](https://eu.udacity.com)
+1. [Udacity Data Analyst Nanodegree](https://eu.udacity.com) . The most information
 2. https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/binomial-theorem/binomial-distribution-formula/
 3. https://en.wikipedia.org/
 4. www.khanacademy.org/
