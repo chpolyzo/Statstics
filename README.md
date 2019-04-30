@@ -272,10 +272,15 @@ What we will covver:
 - In supervised machine learning, you are interested in predicting a label for your data. Commonly, you might want to predict fraud, customers that will buy a product, or home values in an area.
 - In unsupervised machine learning, you are interested in clustering data together that isn't already labeled. 
 
-## simple linear regression
+## Simple Lnear Regression
 In simple linear regression, we compare two quantitative variables to one another. </br>
 
 The **response variable** is what you want to predict, while the **explanatory variable** is the variable you use to predict the response. A common way to visualize the relationship between two variables in linear regression is using a **scatterplot**. 
+
+### Scatter plots
+Scatter plots are a common visual for comparing two quantitative variables. A common summary statistic that relates to a scatter plot is the **correlation coefficient** commonly denoted by r.
+
+Correlation coefficient provides the: **Strength** (Strong, Moderate, Week) and **Direction** (Positive, Negative) of a linear relationship. The correlation coefficient is always between -1 and 1, where is closer to 1 or -1, the stronger the relation
 
 
 
