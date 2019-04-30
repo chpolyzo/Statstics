@@ -287,7 +287,7 @@ A rule of thumb for judging the strength:
 
 |     Strong      |    Moderate    |    Weak        |
 | --------------- | -------------- |--------------- |
-|  0.7 ≤ r ≤ 1.0  |  0.3 ≤ r ≤ 0.7 |  0.0 ≤ r ≤ 0.3 |
+|  0.7 ≤ r ≤ 1.0  |  0.3 ≤ r < 0.7 |  0.0 ≤ r < 0.3 |
 
 
 
