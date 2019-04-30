@@ -14,7 +14,7 @@
    - [Binomial Distribution](binomial)
    - [Conditional Probability](conditional)
    - [Bayes Rules](bayes)
-
+8. Regression
 
 ==========================================
 
@@ -260,6 +260,23 @@ Probabiltiy is the chance an **event** to occur. Like flipping a coin. We have 2
 - The probability of the complement event  ```1- P ```  is 1 minus the probability of an event. That is the probability of all other possible events is 1 minus the probability an event itself. Therefore, the sum of all possible events is equal to 1.
 
 - The probability of the composit event (Independent events),  ``` P*P*P*P ``` , is the product of those events.
+
+# Regression
+What we will covver:
+- Identify Regression Applications
+- Learn How Regression Works
+- Apply Regression to Problems Using Python
+
+**Machine Learning** is frequently split into **supervised** and **unsupervised learning**. Regression is an example of supervised machine learning.
+
+- In supervised machine learning, you are interested in predicting a label for your data. Commonly, you might want to predict fraud, customers that will buy a product, or home values in an area.
+- In unsupervised machine learning, you are interested in clustering data together that isn't already labeled. 
+
+## simple linear regression
+In simple linear regression, we compare two quantitative variables to one another. </br>
+
+The **response variable** is what you want to predict, while the **explanatory variable** is the variable you use to predict the response. A common way to visualize the relationship between two variables in linear regression is using a **scatterplot**. 
+
 
 
 # Resources
