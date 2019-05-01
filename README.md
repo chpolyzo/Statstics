@@ -292,6 +292,23 @@ A rule of thumb for judging the strength:
 **Note**
 Although the correlation coefficient and the scatter plot provide some of the info (details about the strength and direction), often an image provides much more information.
 
+**What defines A Line??**
+A line is commonly identified by an **intercept** and a **slope**.</br>
+
+The **intercept** is defined as the predicted value of the response when the x-variable is zero.</br>
+The notation for the population and sample intercept values: 
+* ß<sub>0</sub> Beta Not for the parameter
+* b<sub>0</sub> for the statistic.
+
+
+The **slope** is defined as the predicted change in the response for every one unit increase in the x-variable.</br>
+The notation for the population and sample slope values: 
+* ß<sub>1</sub> Beta One for the parameter
+* b<sub>1</sub> for the statistic.
+
+
+
+
 # Resources
 1. [Udacity Data Analyst Nanodegree](https://eu.udacity.com) . The most information
 2. https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/binomial-theorem/binomial-distribution-formula/
